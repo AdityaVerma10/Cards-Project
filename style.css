@@ -1,0 +1,253 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.navcontainer{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    justify-content:space-around;
+    padding: 10px;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    height: 70px;
+
+}
+.navcontainer h2{
+    font-size: 1.8rem;
+    color: black;
+}
+#navlist{
+    display:flex;
+    gap:200px;
+    list-style-type: none;
+}
+#navlist a{
+    text-decoration: none;
+    font-size:1.5rem;
+    color: lightblue;
+    font-weight: bold;
+}
+.container1{
+    width: 100vw;
+    height: 100vh;
+    background-color: burlywood;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border-bottom: blue;
+}
+.card1{
+    width:19%;
+    height: 58%;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:10px;
+    gap:15px;
+    border-radius: 15px;
+    border:2px solid black;
+}
+.card1 img{
+    width: 90%;
+    height: 70%;
+    border-radius:10px;
+}
+.card1 h2{
+    font-weight: bold;
+}
+.container2{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgray;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border:solid 1px black;
+}
+.card2{
+    width:21%;
+    height: 68%;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    border-radius: 15px;
+}
+.card2 img{
+    width: 100%;
+    height:33%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.headpara{
+
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    gap:20px;
+}
+.headpara h2{
+    font-size:1.2rem;
+    font-weight: bold;
+}
+
+.amountbox{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    justify-content:space-between;
+    background-color: lightblue;
+    width: 90%;
+    height: 10%;
+    padding-right: 5px;
+    border-radius: 8px;
+}
+.amountbox img{
+    width: 25px;
+    height: 25px;
+    border-radius: 12px;
+}
+.annualbox{
+    display: flex;
+    flex-direction:column;
+}
+.amountcontent{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.imagebox{
+    padding: 10px;
+}
+#paymentbox{
+    width: 90%;
+    height: 10%;
+    background-color: purple;
+    color: white;
+    border-radius: 10px;
+    border:none;
+    box-shadow:2px 2px 3px black;
+}
+#cancelbox{
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+.container3{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 100vw;
+    height: 100vh;
+    background-color:violet;
+   
+
+}
+.contentBox{
+    display: flex;
+    width: 58%;
+    height: 60%;
+}
+.textbox{
+     width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF3CAC;
+    
+}
+.insidetextbox{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgbox{
+    width: 50%;
+    height: 100%;
+}
+.imgbox img{
+    width: 100%;
+    height: 100%;
+}
+.userBox{
+    width: 80%;
+    height: 10%;
+    display:flex;
+    justify-content: space-between;
+}
+.headBox h2{
+    font-size: 2rem;
+    color: white;
+}
+.paraBox p{
+    font-size: 1.1rem;
+}
+.userBox p{
+    font-size:0.8rem;
+    /* font-weight: bold; */
+}
+.userBox h2{
+    color: white;
+}
+#footerbox {
+    height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  color: white;
+  font-size: 1.5rem;
+}
+@media(max-width:750px){
+#navlist{
+    gap:50px;
+}
+@media (max-width:550px){
+    .navcontainer{
+        flex-direction: column;
+    }
+}
+}
+@media (max-width:1250px) {
+    .card1{
+        width: 250px;
+        height: 400px;
+    }
+    .card2{
+        width: 250px;
+        height: 450px;
+    }
+}
+
+#navlist a:hover{
+    color: lightyellow;
+}
+.navcontainer h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    box-shadow: 5px 5px 20px black;
+    width: 80px;
+    border-radius: 10px;
+}
+#navlist a{
+    box-shadow: 5px 5px 20px black;
+    width: 100px;
+    border-radius: 9px;
+}
+@media (max-width:850px){
+    .contentBox{
+        flex-direction:column;
+    }
+}
