@@ -14,8 +14,10 @@ body{
     padding: 10px;
     background-color: #FF3CAC;
     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    /* background-color: black; */
     height: 70px;
-
+    width:100vw;
+    position: fixed;
 }
 .navcontainer h2{
     font-size: 1.8rem;
@@ -43,7 +45,7 @@ body{
 }
 .card1{
     width:19%;
-    height: 58%;
+    height: 55%;
     background-color:white;
     display:flex;
     flex-direction:column;
@@ -55,7 +57,7 @@ body{
 }
 .card1 img{
     width: 90%;
-    height: 70%;
+    height: 60%;
     border-radius:10px;
 }
 .card1 h2{
@@ -71,13 +73,13 @@ body{
     border:solid 1px black;
 }
 .card2{
-    width:21%;
-    height: 68%;
+    width:22%;
+    height: 65%;
     background-color:white;
     display:flex;
     flex-direction:column;
     align-items:center;
-    gap:20px;
+    gap:23px;
     border-radius: 15px;
 }
 .card2 img{
@@ -108,6 +110,7 @@ body{
     height: 10%;
     padding-right: 5px;
     border-radius: 8px;
+    
 }
 .amountbox img{
     width: 25px;
@@ -237,14 +240,13 @@ body{
 .navcontainer h2{
     font-family: 'Times New Roman', Times, serif;
     color: black;
-    box-shadow: 5px 5px 20px black;
+    box-shadow: 2px 2px 5px black;
     width: 80px;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 #navlist a{
-    box-shadow: 5px 5px 20px black;
-    width: 100px;
-    border-radius: 9px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 2px;
 }
 @media (max-width:850px){
     .contentBox{
