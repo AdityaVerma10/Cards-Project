@@ -253,3 +253,8 @@ body{
         flex-direction:column;
     }
 }
+@media (max-width:850px){
+    .contentBox{
+        flex-direction:column;
+    }
+}
